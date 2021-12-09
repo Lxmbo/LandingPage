@@ -1,0 +1,155 @@
+
+
+body{
+    display:flex;
+    flex-direction: column;
+}
+ul{
+    list-style-type:none;
+    margin-top: auto;
+    gap: 2em;
+}
+button{
+    margin-top: 5px;
+    height: 30px;
+    width: 90px;
+    background-color: #3882f6;
+    color: white;
+    border-radius:10px;
+}
+img{
+    border-radius: 10px;
+}
+.bottombutton{
+    border:1px solid white;
+}
+.cardimg{
+    border: 3px solid #3882f6;
+    
+}
+.header{
+    display: flex;       
+    justify-content: space-between;
+    padding: 0em 15em 5em 15em;
+    background-color: #1f2937;
+    color: white;
+    
+}
+.logo{
+    font-size: 24px;
+    font-weight: 800;
+    padding-top: 1em;
+}
+.links{
+    display:flex;
+    align-self: flex-end;
+    padding-top:1em;
+}
+.content{
+    display:flex;
+    flex-direction: column  ;
+}
+.intro{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:5em;
+    background-color:#1f2937;
+    color: white;
+    padding: 0em 15em 0em 15em;
+}
+.intro-left{
+    flex:1;
+    margin-bottom: auto;
+    align-items: flex-start;
+    display:flex;
+    flex-direction: column;
+    row-gap: 1px;
+   
+}
+.intro-right{
+ 
+    flex:1;
+    
+}
+.awesome{
+    color: white;
+    background-color: #1f2937;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 48px;
+    font-weight: 1000;
+}
+.coawesome{
+    font-size: 18px;
+    color: rgb(212, 211, 211);
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0em 15em 0em 15em;
+
+}
+.cardinfo{
+    display: flex;
+    justify-content: space-around;
+    padding: 0em 19em 0em 19em;
+    flex: 0 1 auto;
+    gap: 2em    ;
+    
+        
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0em 2em 0em  2em;    
+    text-align:center;
+    
+
+}
+.quote{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3em;
+    box-sizing: border-box;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-weight: 200;
+    font-style:italic;
+    
+}
+.author{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 2em 0em 0em 0em;
+}
+.calltoaction{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4em 15em 4em 15em;
+    padding: 2em 12em 2em 12em;
+    gap: 10em;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 10px;
+    font-size:18px;
+    font-weight: bold;
+}
+.sign{
+font-size: 12px;
+font-weight: normal;
+}
+.footer{
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    padding: 1em;
+    background-color: #1f2937;
+    color: white;
+}
